@@ -22,5 +22,19 @@
 	<h1>HTML STYLE - CSS</h1>
 	<p>css stands for Cascading Style Sheets</p>
 	<em>css saves a lot of work</em>
+	<div><input type="button" value="orange" onclick="document.body.style.backgroundColor = 'orange'">
+		<input type="button" value="yellow" onclick="document.body.style.backgroundColor = 'yellow'">
+	<script>
+		var name;
+		name = window.prompt("please enter your name:")
+		document.writeln("<p>Good Evening," + name + ",welcome to JAVAScript programming! </p>")
+		var firstNumber,secondNumber,num1,num2,sum;
+		firstNumber = window.prompt("please enter first num:");
+		secondNumber = window.prompt("please enter second num:");
+		num1 = parseInt(firstNumber);
+		num2 = parseInt(secondNumber);
+		sum = num1 + num2;
+		document.writeln("<p> The sum is:" + sum + "</p>");
+	</script>
 </body>
 </html>
